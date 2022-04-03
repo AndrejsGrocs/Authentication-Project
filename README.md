@@ -36,7 +36,7 @@ to let ```.env``` file work.
         "sass"
         "react-router-dom"
 
-9. Next Step
+9. Frontend Routing created and connected to the Navbar
         
 
         

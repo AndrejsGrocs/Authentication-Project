@@ -1,12 +1,16 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
-import '../../assets/scss/main.scss'
+
+
+
 
 export default function Landing() {
+       
+
     return (
-        <div>
-            <h1>Authentication Project</h1>
-            <Navbar/>
-        </div>
+           <div>
+
+      <h1 className='page-h1'>Landing Page</h1>
+    </div>
+       
     )
 }
