@@ -17,16 +17,26 @@ to let ```.env``` file work.
 1. Created Frontend Forlder.
 2. Dependencies Installed 
  <br/>
-   ``` "cookie-session"
+   ``` 
         "cors"
         "dotenv"
         "express"
         "nodemon"
         "passport" 
+        "cookie-session"
         
-3. Server Created
+3. Server created
 4. GitHub repository created
 5. Development brach created
-6. Server Updated
+6. Server updated
+7. Navbar created 
+8. Dependencies added to the frontend 
+<br/>
+   ``` 
+        "sass"
+        "react-router-dom"
+
+9. Next Step
+        
 
         
