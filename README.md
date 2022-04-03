@@ -9,7 +9,7 @@ Please create .env file and there a following line: ```SKIP_PREFLIGHT_CHECK=true
 <br/>
 Also you need to install the  dotenv dependency using command ```npm i dotenv``` 
 <br/>
-to let ```.env``` file work.
+to let ```.env``` file work...
 
 
 ## Project Execution Sequence
