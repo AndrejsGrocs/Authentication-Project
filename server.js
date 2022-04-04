@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const passport = require('passport');
 const cookieSession = require('cookie-session');
 const passportSetup = require('./passport')
-const authRoute = require('./routes/authRoutes')
+ const authR = require("./routes/authRoutes"); 
 
 
 const app = express()
@@ -27,7 +27,7 @@ app.use(
 app.use(express.json())
 app.use(passport.initialize());
 app.use(passport.session());
-
+app.use('/auth', authR); 
 
 
  mongoose
@@ -46,7 +46,7 @@ app.use(passport.session());
     console.log('database connection error.', error);
   });
 
-app.use('/auth', authRoute)
+
 
 app.listen(app.get('port'), () => {
   console.log("Server started on port " + app.get('port'));
