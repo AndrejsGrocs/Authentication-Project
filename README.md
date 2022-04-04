@@ -17,7 +17,7 @@ to let ```.env``` file work.
 1. Created Frontend Forlder.
 2. Dependencies Installed 
  <br/>
-   ``` 
+   
         "cors"
         "dotenv"
         "express"
@@ -32,11 +32,14 @@ to let ```.env``` file work.
 7. Navbar created 
 8. Dependencies added to the frontend 
 <br/>
-   ``` 
+    
         "sass"
         "react-router-dom"
 
 9. Frontend Routing created and connected to the Navbar
+10. Buttons and functions to start authentication created
+11. Authentication strategies added.
+12. But authentication strategies is still not working
         
 
         
