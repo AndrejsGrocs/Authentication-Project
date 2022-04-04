@@ -8,17 +8,18 @@ import '../../src/assets/scss/main.scss'
 
 
 export default function MainRouter() {
+         const user=true
     return (
         <div>
              <Router>
         <div>
            
-            <Navbar/>
+            <Navbar user={user}/>
             <Routes>
             
                 <Route path='/' element= {<Landing/>} />
-               <Route path='/login' element= {<Login/>} />
-               <Route path='/profile' element= {<Profile/>} />
+               <Route path='/login' element= {user? <Navigate to='/'/> : <Login/>} />
+               <Route path='/profile' element= {user ? <Profile /> : <Navigate to="/login" />} />
                  
 
 
