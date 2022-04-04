@@ -8,7 +8,7 @@ import '../../src/assets/scss/main.scss'
 
 
 export default function MainRouter() {
-         const user=true
+         const user=false
     return (
         <div>
              <Router>
