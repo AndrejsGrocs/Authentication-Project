@@ -35,11 +35,23 @@ to let ```.env``` file work.
     
         "sass"
         "react-router-dom"
+   
 
 9. Frontend Routing created and connected to the Navbar
 10. Buttons and functions to start authentication created
 11. Authentication strategies added.
-12. But authentication strategies is still not working
+12. Strategies CLIENT IDs and SECRETS are generated and added to .env file
+
+<br/>
+    
+```   
+    "passport-facebook"
+    "passport-github2"
+    "passport-google-oauth20"
+```
+
+
+13.   But authentication strategies is still not working
         
 
         
