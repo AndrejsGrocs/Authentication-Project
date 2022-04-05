@@ -9,7 +9,9 @@ import '../../src/assets/scss/main.scss'
 
 
 export default function MainRouter() {
-         const [user, setUser] = useState(null);
+
+  const user = false
+         /* const [user, setUser] = useState(null);
 
   useEffect(() => {
     const getUser = () => {
@@ -34,7 +36,7 @@ export default function MainRouter() {
         });
     };
     getUser();
-  }, []);
+  }, []); */
     return (
         <div>
              <Router>

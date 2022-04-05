@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -13,6 +19,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #99B898;
 }
 
 .navlist {
@@ -31,37 +38,45 @@
 }
 
 .page-h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   margin-left: 45%;
   margin-top: 200px;
 }
 
 .page-h2{
-    margin-left: 42%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-left: 40%;
     margin-top: 200px;
 }
 
+html {
+  background-color: #FECEAB;
+}
 
 .button-list{
   list-style: none;
   margin: 0 auto;
-
 }
 
 .button-container{
   margin-top: 200px;
- 
- 
-  
 }
 
 .auth-header{
-  margin-left: 46%;
+  margin-left: 43.5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .auth-button{
+    font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 10px;
+    
     
 }
